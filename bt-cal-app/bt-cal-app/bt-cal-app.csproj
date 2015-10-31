@@ -66,7 +66,46 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".tmp\styles\main.css" />
+    <Content Include="app\elements\elements.html" />
+    <Content Include="app\elements\my-greeting\my-greeting.html" />
+    <Content Include="app\elements\my-list\my-list.html" />
+    <Content Include="app\elements\routing.html" />
+    <Content Include="app\favicon.ico" />
+    <Content Include="app\images\touch\apple-touch-icon.png" />
+    <Content Include="app\images\touch\chrome-splashscreen-icon-384x384.png" />
+    <Content Include="app\images\touch\chrome-touch-icon-192x192.png" />
+    <Content Include="app\images\touch\icon-128x128.png" />
+    <Content Include="app\images\touch\ms-icon-144x144.png" />
+    <Content Include="app\images\touch\ms-touch-icon-144x144-precomposed.png" />
+    <Content Include="app\index.html" />
+    <Content Include="app\robots.txt" />
+    <Content Include="app\scripts\app.js" />
+    <Content Include="app\styles\app-theme.html" />
+    <Content Include="app\styles\main.css" />
+    <Content Include="app\styles\shared-styles.html" />
+    <Content Include="app\sw-import.js" />
+    <Content Include="app\test\index.html" />
+    <Content Include="app\test\my-greeting-basic.html" />
+    <Content Include="app\test\my-list-basic.html" />
+    <Content Include="dist\styles\main.css" />
+    <Content Include="gulpfile.js" />
     <Content Include="packages.config" />
+    <Content Include=".editorconfig" />
+    <Content Include=".jscsrc" />
+    <Content Include=".jshintrc" />
+    <Content Include="bower.json" />
+    <Content Include="LICENSE.md" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="docs\add-es2015-support-babel.md" />
+    <Content Include="docs\chrome-dev-editor.md" />
+    <Content Include="docs\polymer-perf.md" />
+    <Content Include="docs\README.md" />
+    <Content Include="app\cache-config.json" />
+    <Content Include="app\manifest.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +114,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="wct.conf.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\images\touch\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
